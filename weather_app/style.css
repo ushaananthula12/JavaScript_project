@@ -1,0 +1,51 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    background-image: url('bg.jpg'); /* Replace 'your-background-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styles for the container box */
+.container-box {
+    background-color: rgba(50, 50, 50, 0.8); /* White box with opacity */
+    border-radius: 10px; /* Rounded corners */
+    padding: 40px; /* Spacing inside the box */
+    text-align: center; /* Center-align content */
+    width: 80%; /* Set width to 80% of the viewport width */
+    max-width: 600px; /* Limit maximum width to prevent stretching */
+}
+
+/* Styles for the header */
+.header {
+    margin-bottom: 20px; /* Spacing below the header */
+}
+/* Styles for the space */
+.space {
+    height: 20px; /* Adjust the height of the space as needed */
+}
+
+/* Styles for the current location button */
+
+.current-location-button {
+    display: block; /* Make the button a block element */
+    margin: 10px auto 0; /* Add margin space at the top and center horizontally */
+    text-align: center; /* Center-align the button */
+}
+
+
+.app-title {
+    margin: 10px; /* Remove default margin */
+}
+
+/* Styles for the logo */
+.logo {
+    width: 200px; /* Example width */
+    height: auto; /* Automatically adjust height while maintaining aspect ratio */
+}
